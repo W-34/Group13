@@ -32,7 +32,6 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup() {
   Serial.begin(9600);
   Serial.println(F("Group 13"));
-
   dht.begin();
 }
 
