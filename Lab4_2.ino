@@ -27,6 +27,7 @@ void setup() {
   tm1637.display(2,12); 
   tm1637.display(3,13);
   delay(3000);
+  Serial.println(F("Group 13"));
 }
 
 int hour, minute, second;
